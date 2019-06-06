@@ -1,8 +1,9 @@
 $(document).ready(function() {
-  $("#form").submit(function(event) {
+  $("form#mail").submit(function(event) {
     var nameInput = $("input#person1").val();
 
       $(".person1").text(nameInput);
+
       $("#letter").show();
 
 
